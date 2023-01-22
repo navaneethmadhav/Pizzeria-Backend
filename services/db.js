@@ -8,13 +8,22 @@ const Product=mongoose.model('Product',{
     id:Number,
     name:String,
     description:String,
-    ingredients:Array,
+    ingredients:[],
     spicy:String,
     vegetarian:String,
     price:Number,
     image:String
 })
 
+const User=mongoose.model('User',
+{
+    username:String,
+    password:String,
+    email:String,
+    phone:Number
+})
+
 module.exports={
-    Product
+    Product,
+    User
 }
