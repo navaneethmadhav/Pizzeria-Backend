@@ -36,3 +36,10 @@ app.get('/all-products',(req,res)=>{
         res.status(result.statusCode).json(result)
     })
 })
+
+// app.get('/all-products',(req,res)=>{
+//     dataService.getFood()
+//     .then(result=>{
+//         res.status(result.statusCode).json(result)
+//     })
+// })

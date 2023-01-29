@@ -15,6 +15,18 @@ const Product=mongoose.model('Product',{
     image:String
 })
 
+// const Food=mongoose.model('Food',{
+//     id:Number,
+//     name:String,
+//     categoryId:Number,
+//     description:String,
+//     ingredients:[],
+//     spicy:String,
+//     vegetarian:String,
+//     price:Number,
+//     image:String
+// })
+
 const User=mongoose.model('User',
 {
     username:String,
@@ -25,5 +37,6 @@ const User=mongoose.model('User',
 
 module.exports={
     Product,
+    // Food,
     User
 }

@@ -21,6 +21,27 @@ const getProducts =()=>{
     )
 }
 
+// const getFood =()=>{
+//   return db.Food.find().then(
+//       (result)=>{
+//           if(result){
+//               return{
+//                   status:true,
+//                   statusCode:200,
+//                   products:result
+//               }
+//           }
+//           else{
+//               return{
+//                   status:false,
+//                   statusCode:404,
+//                   message:'No products found'
+//               }
+//           }
+//       }
+//   )
+// }
+
 userDetails={
     'akhil01@gmail.com':{username:'Akhil',phone:'9856743486',email:'akhil01@gmail.com',password:1000},
     'manoj123@gmail.com':{username:'Manoj',phone:'9756443287',email:'manoj123@gmail.com',password:1001},
@@ -103,8 +124,32 @@ userDetails={
   //   }
   // }
 
+//   const getfooddetail=(id)=>{
+//     return db.Product.findOne({id})
+//     .then(result => {
+//         if (result) {
+
+//             return {
+//                 statusCode: 200,
+//                 status: true,
+//                 products:result
+//             }
+//         }
+//         else {
+//             return {
+                
+//                 status: false,
+//                 statusCode: 404,
+//                 message: 'No items available'
+//             }
+//         }
+//     })
+// }
+
 module.exports ={
     getProducts,
+    // getFood,
     register,
-    login
+    login,
+    // getfooddetail
 }
