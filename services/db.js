@@ -4,21 +4,9 @@ mongoose.connect('mongodb://localhost:27017/food',()=>{
     console.log('Connected to MongoDB');
 })
 
-const Product=mongoose.model('Product',{
-    id:Number,
-    name:String,
-    description:String,
-    ingredients:[],
-    spicy:String,
-    vegetarian:String,
-    price:Number,
-    image:String
-})
-
-// const Food=mongoose.model('Food',{
+// const Product=mongoose.model('Product',{
 //     id:Number,
 //     name:String,
-//     categoryId:Number,
 //     description:String,
 //     ingredients:[],
 //     spicy:String,
@@ -26,6 +14,18 @@ const Product=mongoose.model('Product',{
 //     price:Number,
 //     image:String
 // })
+
+const Food=mongoose.model('Food',{
+    id:Number,
+    name:String,
+    category:String,
+    description:String,
+    ingredients:[],
+    spicy:String,
+    vegetarian:String,
+    price:Number,
+    image:String
+})
 
 const User=mongoose.model('User',
 {
@@ -36,7 +36,7 @@ const User=mongoose.model('User',
 })
 
 module.exports={
-    Product,
-    // Food,
+    // Product,
+    Food,
     User
 }

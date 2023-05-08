@@ -1,9 +1,9 @@
 
     [
         {
-            "id": 0,
+            "id": 1,
             "name": "Margherita",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": ["tomato sauce", "mozzarella"],
             "spicy": "No",
@@ -12,9 +12,9 @@
             "image": "https://i.imgur.com/8B8YLOo.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Pepperoni",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
             "spicy": "No",
@@ -23,9 +23,9 @@
             "image": "https://i.imgur.com/OHHctnf.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Rome",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -40,9 +40,9 @@
             "image": "https://i.imgur.com/3ZTwCfz.png"
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "American Spicy",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -60,9 +60,9 @@
             "image": "https://i.imgur.com/dyoOLCO.png"
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Quattro Stagioni",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -78,9 +78,9 @@
             "image": "https://i.imgur.com/wOEuXuV.jpg"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Pork & Feta",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -96,9 +96,9 @@
             "image": "https://i.imgur.com/48Zw4K3.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Quattro Formaggi",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "mozzarella",
@@ -113,9 +113,9 @@
             "image": "https://i.imgur.com/MDrTvkI.jpg"
         },
         {
-            "id": 7,
+            "id": 8,
             "name": "Carnivora",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -131,9 +131,9 @@
             "image": "https://i.imgur.com/0vPtSSO.png"
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Louisiana Chicken",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "marinated chicken",
@@ -149,9 +149,9 @@
             "image": "https://i.imgur.com/lZtwJgy.png"
         },
         {
-            "id": 9,
+            "id": 10,
             "name": "Honey Mustard Chicken",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -166,9 +166,9 @@
             "image": "https://i.imgur.com/SoZu61g.png"
         },
         {
-            "id": 10,
+            "id": 11,
             "name": "Hawaiian",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "mozzarella",
@@ -184,9 +184,9 @@
             "image": "https://i.imgur.com/mqTgvgl.png"
         },
         {
-            "id": 11,
+            "id": 12,
             "name": "Classic",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -201,9 +201,9 @@
             "image": "https://i.imgur.com/k6IGrUd.png"
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Pastrami",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -219,9 +219,9 @@
             "image": "https://i.imgur.com/yOe5RtC.png"
         },
         {
-            "id": 13,
+            "id": 14,
             "name": "Hot Pastrami",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "Honey Mustard sauce",
@@ -237,9 +237,9 @@
             "image": "https://i.imgur.com/ipMA5LP.png"
         },
         {
-            "id": 14,
+            "id": 15,
             "name": "Country",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -255,9 +255,9 @@
             "image": "https://i.imgur.com/E67Xf8Y.png"
         },
         {
-            "id": 15,
+            "id": 16,
             "name": "Hot Cheese",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -274,9 +274,9 @@
             "image": "https://i.imgur.com/v4sa2cA.png"
         },
         {
-            "id": 16,
+            "id": 17,
             "name": "Ocean",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -292,9 +292,9 @@
             "image": "https://i.imgur.com/w5IQ2rX.png"
         },
         {
-            "id": 17,
+            "id": 18,
             "name": "BBQ",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -312,9 +312,9 @@
             "image": "https://i.imgur.com/znqS9KD.png"
         },
         {
-            "id": 18,
+            "id": 19,
             "name": "Mexicana",
-            "categoryId": 1,
+            "category": "pizza",
             "description": "",
             "ingredients": [
                 "tomato sauce",
@@ -332,9 +332,9 @@
             "image": "https://i.imgur.com/cYpO8RT.png"
         },
         {
-            "id": 19,
+            "id": 20,
             "name": "Bolognese",
-            "categoryId": 2,
+            "category": "pasta",
             "description": "",
             "ingredients": ["penne", "ragu sauce", "beef cubes", "mozzarella"],
             "spicy": "No",
@@ -343,9 +343,9 @@
             "image": "https://i.imgur.com/IXDJ52k.png"
         },
         {
-            "id": 20,
+            "id": 21,
             "name": "Carbonara",
-            "categoryId": 2,
+            "category": "pasta",
             "description": "",
             "ingredients": [
                 "penne",
@@ -359,9 +359,9 @@
             "image": "https://i.imgur.com/3jKSuUu.png"
         },
         {
-            "id": 21,
+            "id": 22,
             "name": "Caesar",
-            "categoryId": 2,
+            "category": "salads",
             "description": "",
             "ingredients": [
                 "chicken breast",
@@ -379,9 +379,9 @@
             "image": "https://i.imgur.com/QWXH2NC.png"
         },
         {
-            "id": 22,
+            "id": 23,
             "name": "Greek",
-            "categoryId": 2,
+            "category": "salads",
             "description": "",
             "ingredients": [
                 "feta cheese",
@@ -401,9 +401,9 @@
             "image": "https://i.imgur.com/qChqf83.png"
         },
         {
-            "id": 23,
+            "id": 24,
             "name": "Tuna",
-            "categoryId": 2,
+            "category": "salads",
             "description": "",
             "ingredients": [
                 "tuna",
@@ -421,9 +421,9 @@
             "image": "https://i.imgur.com/Ph0IjrX.png"
         },
         {
-            "id": 24,
+            "id": 25,
             "name": "Brownie",
-            "categoryId": 3,
+            "category": "desserts",
             "description": "A delicious cake with chocolate and hazelnuts",
             "ingredients": [],
             "spicy": "No",
@@ -432,9 +432,9 @@
             "image": "https://i.imgur.com/7WbfaDN.png"
         },
         {
-            "id": 25,
-            "categoryId": 3,
+            "id": 26,
             "name": "Chocolate Tortilla",
+            "category": "desserts",
             "description": "Tortilla filled with chocolate cream",
             "ingredients": [],
             "spicy": "No",
@@ -443,9 +443,9 @@
             "image": "https://i.imgur.com/Mgsc3IZ.png"
         },
         {
-            "id": 26,
+            "id": 27,
             "name": "Apple Pie",
-            "categoryId": 3,
+            "category": "desserts",
             "description": "Hot pie with apple and cinnamon",
             "ingredients": [],
             "spicy": "No",
@@ -454,9 +454,9 @@
             "image": "https://i.imgur.com/OWIVhWX.png"
         },
         {
-            "id": 27,
+            "id": 28,
             "name": "Cheesecake",
-            "categoryId": 3,
+            "category": "desserts",
             "description": "Cheesecake with berries topping",
             "ingredients": [],
             "spicy": "No",
@@ -465,9 +465,9 @@
             "image": "https://i.imgur.com/AsldA7x.png"
         },
         {
-            "id": 28,
+            "id": 29,
             "name": "Coca Cola",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Coca Cola 330ml",
             "ingredients": [],
             "spicy": "No",
@@ -476,9 +476,9 @@
             "image": "https://i.imgur.com/nJ6LeWv.png"
         },
         {
-            "id": 29,
+            "id": 30,
             "name": "Fanta",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Fanta 330ml",
             "ingredients": [],
             "spicy": "No",
@@ -487,9 +487,9 @@
             "image": "https://i.imgur.com/1WDkfme.png"
         },
         {
-            "id": 30,
+            "id": 31,
             "name": "Sprite",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Sprite 330ml",
             "ingredients": [],
             "spicy": "No",
@@ -498,9 +498,9 @@
             "image": "https://i.imgur.com/qP4Nx1x.jpg"
         },
         {
-            "id": 31,
+            "id": 32,
             "name": "Water",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Dorna 0.5L",
             "ingredients": [],
             "spicy": "No",
@@ -509,9 +509,9 @@
             "image": "https://i.imgur.com/yYuuaL1.jpg"
         },
         {
-            "id": 32,
+            "id": 33,
             "name": "Sparkling water",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Dorna 0.5L",
             "ingredients": [],
             "spicy": "No",
@@ -520,9 +520,9 @@
             "image": "https://i.imgur.com/0nyJk19.jpg"
         },
         {
-            "id": 33,
+            "id": 34,
             "name": "Fuzetea",
-            "categoryId": 4,
+            "category": "drinks",
             "description": "Fuzetea 0.5L Peach or Lemon",
             "ingredients": [],
             "spicy": "No",
@@ -531,20 +531,9 @@
             "image": "https://i.imgur.com/dsHumXE.jpg"
         },
         {
-            "id": 34,
-            "name": "BBQ",
-            "categoryId": 5,
-            "description": "",
-            "ingredients": [],
-            "spicy": "No",
-            "vegetarian": "No",
-            "price": 4,
-            "image": "https://i.imgur.com/k5Dg7hZ.png"
-        },
-        {
             "id": 35,
-            "name": "Pizza",
-            "categoryId": 5,
+            "name": "BBQ",
+            "category": "sauces",
             "description": "",
             "ingredients": [],
             "spicy": "No",
@@ -554,30 +543,19 @@
         },
         {
             "id": 36,
-            "name": "Salsa",
-            "categoryId": 5,
+            "name": "Pizza",
+            "category": "sauces",
             "description": "",
             "ingredients": [],
-            "spicy": "Yes",
+            "spicy": "No",
             "vegetarian": "No",
             "price": 4,
             "image": "https://i.imgur.com/k5Dg7hZ.png"
         },
         {
             "id": 37,
-            "name": "Sweet Chilli",
-            "categoryId": 5,
-            "description": "",
-            "ingredients": [],
-            "spicy": "No",
-            "vegetarian": "No",
-            "price": 4,
-            "image": "https://i.imgur.com/k5Dg7hZ.png"
-        },
-        {
-            "id": 38,
-            "name": "Spicy TABASCO",
-            "categoryId": 5,
+            "name": "Salsa",
+            "category": "sauces",
             "description": "",
             "ingredients": [],
             "spicy": "Yes",
@@ -586,20 +564,9 @@
             "image": "https://i.imgur.com/k5Dg7hZ.png"
         },
         {
-            "id": 39,
-            "name": "Mayonnaise",
-            "categoryId": 5,
-            "description": "",
-            "ingredients": [],
-            "spicy": "No",
-            "vegetarian": "No",
-            "price": 4,
-            "image": "https://i.imgur.com/OmejA2J.png"
-        },
-        {
-            "id": 40,
-            "name": "Ketchup",
-            "categoryId": 5,
+            "id": 38,
+            "name": "Sweet Chilli",
+            "category": "sauces",
             "description": "",
             "ingredients": [],
             "spicy": "No",
@@ -608,9 +575,20 @@
             "image": "https://i.imgur.com/k5Dg7hZ.png"
         },
         {
-            "id": 41,
-            "name": "Garlic sauce",
-            "categoryId": 5,
+            "id": 39,
+            "name": "Spicy TABASCO",
+            "category": "sauces",
+            "description": "",
+            "ingredients": [],
+            "spicy": "Yes",
+            "vegetarian": "No",
+            "price": 4,
+            "image": "https://i.imgur.com/k5Dg7hZ.png"
+        },
+        {
+            "id": 40,
+            "name": "Mayonnaise",
+            "category": "sauces",
             "description": "",
             "ingredients": [],
             "spicy": "No",
@@ -619,9 +597,31 @@
             "image": "https://i.imgur.com/OmejA2J.png"
         },
         {
+            "id": 41,
+            "name": "Ketchup",
+            "category": "sauces",
+            "description": "",
+            "ingredients": [],
+            "spicy": "No",
+            "vegetarian": "No",
+            "price": 4,
+            "image": "https://i.imgur.com/k5Dg7hZ.png"
+        },
+        {
             "id": 42,
+            "name": "Garlic sauce",
+            "category": "sauces",
+            "description": "",
+            "ingredients": [],
+            "spicy": "No",
+            "vegetarian": "No",
+            "price": 4,
+            "image": "https://i.imgur.com/OmejA2J.png"
+        },
+        {
+            "id": 43,
             "name": "Wedges",
-            "categoryId": 6,
+            "category": "sides",
             "description": "Baked potatoes, slightly spicy",
             "ingredients": [],
             "spicy": "No",
@@ -630,9 +630,9 @@
             "image": "https://i.imgur.com/sxP6sJt.png"
         },
         {
-            "id": 43,
+            "id": 44,
             "name": "Onion rings",
-            "categoryId": 6,
+            "category": "sides",
             "description": "Fried onion rings",
             "ingredients": [],
             "spicy": "No",
@@ -641,9 +641,9 @@
             "image": "https://i.imgur.com/i3Jintb.png"
         },
         {
-            "id": 44,
+            "id": 45,
             "name": "Coleslaw",
-            "categoryId": 6,
+            "category": "sides",
             "description": "Cabbage salad, carrots and dressing",
             "ingredients": [],
             "spicy": "No",

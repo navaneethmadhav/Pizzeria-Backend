@@ -30,16 +30,25 @@ app.post('/login',(req,res)=>{
     })
 })
 
+// app.get('/all-products',(req,res)=>{
+//     dataService.getProducts()
+//     .then(result=>{
+//         res.status(result.statusCode).json(result)
+//     })
+// })
+
 app.get('/all-products',(req,res)=>{
-    dataService.getProducts()
+    dataService.getFood()
     .then(result=>{
         res.status(result.statusCode).json(result)
     })
 })
 
-// app.get('/all-products',(req,res)=>{
-//     dataService.getFood()
-//     .then(result=>{
-//         res.status(result.statusCode).json(result)
-//     })
-// })
+
+app.get('/all-products/:id',(req,res)=>{
+    dataService.getfooddetail(req.params.id).then(
+        (result)=>{
+            res.status(result.statusCode).json(result)
+        }
+    )
+})

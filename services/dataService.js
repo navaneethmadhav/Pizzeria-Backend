@@ -1,46 +1,46 @@
 const db = require('./db')
 
-const getProducts =()=>{
-    return db.Product.find().then(
-        (result)=>{
-            if(result){
-                return{
-                    status:true,
-                    statusCode:200,
-                    products:result
-                }
-            }
-            else{
-                return{
-                    status:false,
-                    statusCode:404,
-                    message:'No products found'
-                }
-            }
-        }
-    )
-}
-
-// const getFood =()=>{
-//   return db.Food.find().then(
-//       (result)=>{
-//           if(result){
-//               return{
-//                   status:true,
-//                   statusCode:200,
-//                   products:result
-//               }
-//           }
-//           else{
-//               return{
-//                   status:false,
-//                   statusCode:404,
-//                   message:'No products found'
-//               }
-//           }
-//       }
-//   )
+// const getProducts =()=>{
+//     return db.Product.find().then(
+//         (result)=>{
+//             if(result){
+//                 return{
+//                     status:true,
+//                     statusCode:200,
+//                     products:result
+//                 }
+//             }
+//             else{
+//                 return{
+//                     status:false,
+//                     statusCode:404,
+//                     message:'No products found'
+//                 }
+//             }
+//         }
+//     )
 // }
+
+const getFood =()=>{
+  return db.Food.find().then(
+      (result)=>{
+          if(result){
+              return{
+                  status:true,
+                  statusCode:200,
+                  products:result
+              }
+          }
+          else{
+              return{
+                  status:false,
+                  statusCode:404,
+                  message:'No products found'
+              }
+          }
+      }
+  )
+}
 
 userDetails={
     'akhil01@gmail.com':{username:'Akhil',phone:'9856743486',email:'akhil01@gmail.com',password:1000},
@@ -124,32 +124,32 @@ userDetails={
   //   }
   // }
 
-//   const getfooddetail=(id)=>{
-//     return db.Product.findOne({id})
-//     .then(result => {
-//         if (result) {
+  const getfooddetail=(id)=>{
+    return db.Food.findOne({id})
+    .then(result => {
+        if (result) {
 
-//             return {
-//                 statusCode: 200,
-//                 status: true,
-//                 products:result
-//             }
-//         }
-//         else {
-//             return {
+            return {
+                statusCode: 200,
+                status: true,
+                products:result
+            }
+        }
+        else {
+            return {
                 
-//                 status: false,
-//                 statusCode: 404,
-//                 message: 'No items available'
-//             }
-//         }
-//     })
-// }
+                status: false,
+                statusCode: 404,
+                message: 'No items available'
+            }
+        }
+    })
+}
 
 module.exports ={
-    getProducts,
-    // getFood,
+    // getProducts,
+    getFood,
     register,
     login,
-    // getfooddetail
+    getfooddetail
 }
